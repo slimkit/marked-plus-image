@@ -21,6 +21,13 @@ yarn add marked-plus-image
 import marked from 'marked';
 import plusImagePlugin from 'marked-plus-image';
 
+const basename = 'https://plus.io/api/v2/files';
+    
+marked.setOptions({
+    // ...
+    basename
+});
+
 const markdownText = '...'; // The is you markdown text.
 const html = marked(
     plusImagePlugin(marked, markdownText)
