@@ -1,6 +1,6 @@
 {
   "name": "marked-plus-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ThnkSNS+ image syntax plugin for marked markdown parser.",
   "main": "src/index.js",
   "repository": "https://github.com/slimkit/marked-plus-image.git",
