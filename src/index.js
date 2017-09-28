@@ -9,7 +9,7 @@
  */
 
 const RULE = /^@!\[(.*?)\]\((\w+?)\)/;
-module.exports = (marked, markdownText, options = null) => {
+module.exports = (marked, markdownText, options) => {
 
   const { basename } = marked.defaults;
   if (! basename) { return markdownText; }
